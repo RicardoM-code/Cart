@@ -1,4 +1,4 @@
-import propTypes from 'prop-types';
+
 import React, { useContext } from 'react';
 import { FaCartPlus } from "react-icons/fa";
 import AppContext from '../../context/AppContext';
@@ -27,7 +27,3 @@ function ProductCard({data}) {
 }
 
 export default ProductCard
-
-ProductCard.propTypes = {
-    data: propTypes.shape({})
-}.isRequired
